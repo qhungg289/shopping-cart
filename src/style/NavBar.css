@@ -1,1 +1,38 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+	padding: 1rem 2rem;
+}
 
+.nav a {
+	text-decoration: none;
+	color: #3f3f3f;
+}
+
+.nav .logo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.nav a h1 {
+	margin: 0;
+	font-weight: 600;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 1rem 0;
+}
+
+.nav ul li {
+	display: inline;
+	margin-left: 4rem;
+	font-size: 1.25rem;
+}
+
+.cart-nav {
+	display: inline;
+}

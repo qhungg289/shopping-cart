@@ -1,17 +1,34 @@
 .home {
 	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 2rem;
 }
 
-.home img {
+#home-content {
+	max-width: 550px;
 	width: 50%;
 }
 
+#home-content h1 {
+	font-weight: 900;
+	letter-spacing: 4px;
+}
+
+.home img {
+	width: 40%;
+	max-width: 300px;
+}
+
 .home a button {
-	color: black;
+	color: #3f3f3f;
 	border: none;
 	background-color: #f7d372;
 	cursor: pointer;
 	padding: 1rem 2rem;
 	border-radius: 8px;
 	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 1.05rem;
+	box-shadow: 0 3px 3px 0px #0000002e;
 }
