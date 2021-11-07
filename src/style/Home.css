@@ -1,0 +1,17 @@
+.home {
+	display: flex;
+}
+
+.home img {
+	width: 50%;
+}
+
+.home a button {
+	color: black;
+	border: none;
+	background-color: #f7d372;
+	cursor: pointer;
+	padding: 1rem 2rem;
+	border-radius: 8px;
+	font-family: "Poppins", sans-serif;
+}
