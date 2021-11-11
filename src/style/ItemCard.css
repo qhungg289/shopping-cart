@@ -5,6 +5,11 @@
 	box-shadow: 0 3px 3px 0px #0000002e;
 	justify-content: center;
 	border-radius: 8px;
+	transition: 0.3s;
+}
+
+.item-card:hover {
+	transform: scale(1.1);
 }
 
 .item-card img {
@@ -35,4 +40,8 @@
 	font-size: 1rem;
 	font-family: "Poppins", sans-serif;
 	font-weight: 700;
+}
+
+.item-card button:hover {
+	background-color: #f7c847;
 }

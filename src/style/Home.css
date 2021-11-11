@@ -13,6 +13,7 @@
 #home-content h1 {
 	font-weight: 900;
 	letter-spacing: 4px;
+	max-width: 20ch;
 }
 
 .home img {
@@ -31,4 +32,8 @@
 	font-weight: 700;
 	font-size: 1.05rem;
 	box-shadow: 0 3px 3px 0px #0000002e;
+}
+
+.home a button:hover {
+	background-color: #f7c847;
 }

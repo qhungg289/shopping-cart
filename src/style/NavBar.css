@@ -36,3 +36,7 @@
 .cart-nav {
 	display: inline;
 }
+
+.active {
+	border-bottom: solid 6px #f05050;
+}
