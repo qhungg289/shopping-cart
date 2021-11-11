@@ -1,12 +1,12 @@
 import "../../style/ItemCard.css";
 
-function ItemCard({ image, name, price, onClick }) {
+function ItemCard({ phone, onClick }) {
 	return (
 		<div className="item-card">
-			<img src={image} alt={name} />
-			<p className="item-name">{name}</p>
-			<p className="item-price">{`$${price}`}</p>
-			<button onClick={() => console.log(name)}>Add to cart</button>
+			<img src={phone.image} alt={phone.name} />
+			<p className="item-name">{phone.name}</p>
+			<p className="item-price">{`$${phone.price}`}</p>
+			<button onClick={() => onClick(phone)}>Add to cart</button>
 		</div>
 	);
 }
