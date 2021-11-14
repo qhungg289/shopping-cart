@@ -1,9 +1,6 @@
 import "../../style/ItemInCart.css";
-import { useState } from "react";
 
-function ItemInCart({ phone }) {
-	const [amount, setAmount] = useState(1);
-
+function ItemInCart({ phone, onChange, onClick }) {
 	return (
 		<div className="item-in-cart">
 			<div className="item-image-container">
@@ -18,11 +15,12 @@ function ItemInCart({ phone }) {
 						type="number"
 						name="phones-amount"
 						id="phones-amount"
-						value={amount}
+						value={phone.amount}
 						min="0"
-						onChange={(e) => setAmount(e.target.value)}
+						onChange={(e) => onChange(phone, e.target.value)}
 					/>
 				</label>
+				<span onClick={() => onClick(phone)}>Remove</span>
 			</div>
 		</div>
 	);
