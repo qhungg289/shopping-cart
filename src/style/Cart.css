@@ -37,6 +37,7 @@
 	background-color: #f7c847;
 }
 
-.cart .selected-phones-container {
-	width: 80%;
+.cart .selected-phones-container .empty-cart-msg {
+	margin: 0 auto;
+	width: fit-content;
 }

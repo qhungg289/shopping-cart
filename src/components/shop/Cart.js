@@ -24,14 +24,18 @@ function Cart({ selectedPhones, onChange, onClick, handleCheckout }) {
 				<button onClick={() => setIsCheckout(!isCheckout)}>Checkout</button>
 			</div>
 			<div className="selected-phones-container">
-				{selectedPhones.map((phone) => (
-					<ItemInCart
-						phone={phone}
-						key={uuidv4()}
-						onChange={onChange}
-						onClick={onClick}
-					/>
-				))}
+				{selectedPhones.length !== 0 ? (
+					selectedPhones.map((phone) => (
+						<ItemInCart
+							phone={phone}
+							key={uuidv4()}
+							onChange={onChange}
+							onClick={onClick}
+						/>
+					))
+				) : (
+					<p className="empty-cart-msg">It's kinda empty in here right now!</p>
+				)}
 			</div>
 			{isCheckout && (
 				<Modal
