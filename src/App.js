@@ -11,19 +11,18 @@ function App() {
 
 	function addPhoneToCart(phone) {
 		if (
-			// If phone didn't already in the state
 			!selectedPhones.some(
 				(prevSelectedPhone) => phone.name === prevSelectedPhone.name
 			)
 		) {
 			setSelectedPhones([...selectedPhones, { ...phone, amount: 1 }]);
 		} else {
-			let tempSelectedPhone = [...selectedPhones]; // clone the state
+			let tempSelectedPhone = [...selectedPhones];
 			let tempPhone;
 
 			for (let i = 0; i < tempSelectedPhone.length; i++) {
 				if (phone.name === tempSelectedPhone[i].name) {
-					tempPhone = { ...tempSelectedPhone[i] }; // clone the object
+					tempPhone = { ...tempSelectedPhone[i] };
 					tempPhone.amount++;
 					tempSelectedPhone[i] = tempPhone;
 					break;
@@ -66,6 +65,7 @@ function App() {
 					<Route path="/cart">
 						<Cart
 							selectedPhones={selectedPhones}
+							handleCheckout={() => setSelectedPhones([])}
 							onChange={handleAmountChange}
 							onClick={removePhoneFormCart}
 						/>
