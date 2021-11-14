@@ -35,3 +35,13 @@
 	margin-left: 0.75rem;
 	padding: 0.5rem;
 }
+
+.item-in-cart .item-info-container span {
+	font-size: 0.85rem;
+	cursor: pointer;
+	width: fit-content;
+}
+
+.item-in-cart .item-info-container span:hover {
+	color: red;
+}
