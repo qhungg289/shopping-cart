@@ -1,4 +1,6 @@
 import "../../style/ItemInCart.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 
 function ItemInCart({ phone, onChange, onClick }) {
 	return (
@@ -20,7 +22,10 @@ function ItemInCart({ phone, onChange, onClick }) {
 						onChange={(e) => onChange(phone, e.target.value)}
 					/>
 				</label>
-				<span onClick={() => onClick(phone)}>Remove</span>
+				<span onClick={() => onClick(phone)}>
+					<FontAwesomeIcon icon={faTrashAlt} />
+					<p className="remove-button">Remove</p>
+				</span>
 			</div>
 		</div>
 	);
