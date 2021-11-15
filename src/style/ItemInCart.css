@@ -2,13 +2,13 @@
 	display: flex;
 	box-shadow: 0 3px 3px 0px #0000002e;
 	border-radius: 8px;
-	max-height: 12rem;
 	margin-bottom: 2rem;
 }
 
 .item-in-cart .item-image-container img {
 	width: 12rem;
 	border-radius: 8px;
+	margin: 1rem;
 }
 
 .item-in-cart .item-info-container {
@@ -29,19 +29,29 @@
 
 .item-in-cart .item-info-container label {
 	font-weight: 500;
+	cursor: pointer;
 }
 
 .item-in-cart .item-info-container input {
 	margin-left: 0.75rem;
-	padding: 0.5rem;
+	padding: 0.75rem;
+	font-size: 1rem;
+	background-color: #ededed;
+	border: none;
+	border-radius: 6px;
 }
 
 .item-in-cart .item-info-container span {
-	font-size: 0.85rem;
+	font-size: 1rem;
 	cursor: pointer;
 	width: fit-content;
 }
 
 .item-in-cart .item-info-container span:hover {
 	color: red;
+}
+
+.item-in-cart .item-info-container span .remove-button {
+	display: inline;
+	margin-left: 0.5rem;
 }

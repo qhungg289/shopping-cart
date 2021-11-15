@@ -11,6 +11,7 @@
 .item-card img {
 	width: 12rem;
 	border-radius: 8px;
+	margin: 1rem;
 }
 
 .item-card .item-name {

@@ -5,6 +5,7 @@
 	padding: 1rem 2rem;
 	position: fixed;
 	width: -webkit-fill-available;
+	width: -moz-available;
 	background-color: white;
 	top: 0;
 }
@@ -39,6 +40,19 @@
 
 .cart-nav {
 	display: inline;
+	position: relative;
+}
+
+.cart-nav span {
+	position: absolute;
+	bottom: 15px;
+	left: 16px;
+	background: #f7d372;
+	font-size: 1rem;
+	height: 24px;
+	width: 24px;
+	border-radius: 50%;
+	text-align: center;
 }
 
 .active {
