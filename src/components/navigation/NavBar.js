@@ -16,12 +16,12 @@ function NavBar({ itemsAmount }) {
 					</NavLink>
 				</li>
 				<li>
-					<NavLink exact to="/shop" activeClassName="active">
+					<NavLink to="/shop" activeClassName="active">
 						Shop
 					</NavLink>
 				</li>
 				<li>
-					<NavLink to="/cart">
+					<NavLink exact to="/cart">
 						<div className="cart-nav">
 							<FontAwesomeIcon icon={faShoppingCart} />
 							<span>{itemsAmount}</span>
