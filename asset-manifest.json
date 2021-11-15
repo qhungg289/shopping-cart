@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/qhungg289.github.io/shopping-cart/static/css/main.b686c855.chunk.css",
+    "main.js": "/qhungg289.github.io/shopping-cart/static/js/main.fa803766.chunk.js",
+    "main.js.map": "/qhungg289.github.io/shopping-cart/static/js/main.fa803766.chunk.js.map",
+    "runtime-main.js": "/qhungg289.github.io/shopping-cart/static/js/runtime-main.0db197d0.js",
+    "runtime-main.js.map": "/qhungg289.github.io/shopping-cart/static/js/runtime-main.0db197d0.js.map",
+    "static/js/2.58fc503d.chunk.js": "/qhungg289.github.io/shopping-cart/static/js/2.58fc503d.chunk.js",
+    "static/js/2.58fc503d.chunk.js.map": "/qhungg289.github.io/shopping-cart/static/js/2.58fc503d.chunk.js.map",
+    "index.html": "/qhungg289.github.io/shopping-cart/index.html",
+    "static/css/main.b686c855.chunk.css.map": "/qhungg289.github.io/shopping-cart/static/css/main.b686c855.chunk.css.map",
+    "static/js/2.58fc503d.chunk.js.LICENSE.txt": "/qhungg289.github.io/shopping-cart/static/js/2.58fc503d.chunk.js.LICENSE.txt",
+    "static/media/9.66310466.png": "/qhungg289.github.io/shopping-cart/static/media/9.66310466.png",
+    "static/media/iphone13.f71e0eee.png": "/qhungg289.github.io/shopping-cart/static/media/iphone13.f71e0eee.png",
+    "static/media/iphone13pro.bea2c905.jpg": "/qhungg289.github.io/shopping-cart/static/media/iphone13pro.bea2c905.jpg",
+    "static/media/iphone13promax.c0124bf5.jpg": "/qhungg289.github.io/shopping-cart/static/media/iphone13promax.c0124bf5.jpg",
+    "static/media/pixel5a.2009c476.jpg": "/qhungg289.github.io/shopping-cart/static/media/pixel5a.2009c476.jpg",
+    "static/media/pixel6.989cbdeb.jpg": "/qhungg289.github.io/shopping-cart/static/media/pixel6.989cbdeb.jpg",
+    "static/media/pixel6pro.d449e27f.jpg": "/qhungg289.github.io/shopping-cart/static/media/pixel6pro.d449e27f.jpg",
+    "static/media/s21ultra.6491ffe7.jpg": "/qhungg289.github.io/shopping-cart/static/media/s21ultra.6491ffe7.jpg",
+    "static/media/zflip3.12ae7f65.png": "/qhungg289.github.io/shopping-cart/static/media/zflip3.12ae7f65.png",
+    "static/media/zfold3.6b467a0b.png": "/qhungg289.github.io/shopping-cart/static/media/zfold3.6b467a0b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0db197d0.js",
+    "static/js/2.58fc503d.chunk.js",
+    "static/css/main.b686c855.chunk.css",
+    "static/js/main.fa803766.chunk.js"
+  ]
+}
