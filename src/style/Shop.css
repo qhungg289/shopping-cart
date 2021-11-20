@@ -14,11 +14,14 @@
 	display: block;
 	margin: 2rem;
 	padding: 0.5rem;
+	width: fit-content;
 }
 
 .active-side-bar {
-	border-left: solid 6px #f05050;
 	font-weight: 600;
+	color: #f95555 !important;
+	background: #f6b8b863;
+	border-radius: 12px;
 }
 
 .shop {

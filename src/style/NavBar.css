@@ -57,5 +57,9 @@
 }
 
 .active {
-	border-bottom: solid 6px #f05050;
+	color: #f95555 !important;
+	background: #f6b8b863;
+	padding: 0.5rem;
+	border-radius: 12px;
+	font-weight: 600;
 }
