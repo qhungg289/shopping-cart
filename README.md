@@ -2,4 +2,4 @@
 
 ---
 
-Fake shopping page made with React ⚛, for learning purpose at **The Odin Project**.
+Fake shopping page made with React ⚛ & react-router, for learning purpose at **The Odin Project**.
